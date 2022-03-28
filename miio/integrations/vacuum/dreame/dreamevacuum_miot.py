@@ -18,6 +18,7 @@ DREAME_1C = "dreame.vacuum.mc1808"
 DREAME_F9 = "dreame.vacuum.p2008"
 DREAME_D9 = "dreame.vacuum.p2009"
 DREAME_Z10_PRO = "dreame.vacuum.p2028"
+DREAME_L10_PRO = "dreame.vacuum.p2029"
 DREAME_MOP_2_PRO_PLUS = "dreame.vacuum.p2041o"
 DREAME_MOP_2_ULTRA = "dreame.vacuum.p2150a"
 
@@ -119,6 +120,7 @@ MIOT_MAPPING: Dict[str, MiotMapping] = {
     DREAME_F9: _DREAME_F9_MAPPING,
     DREAME_D9: _DREAME_F9_MAPPING,
     DREAME_Z10_PRO: _DREAME_F9_MAPPING,
+    DREAME_L10_PRO: _DREAME_F9_MAPPING,
     DREAME_MOP_2_PRO_PLUS: _DREAME_F9_MAPPING,
     DREAME_MOP_2_ULTRA: _DREAME_F9_MAPPING,
 }
@@ -194,6 +196,7 @@ def _get_cleaning_mode_enum_class(model):
         DREAME_F9,
         DREAME_D9,
         DREAME_Z10_PRO,
+        DREAME_L10_PRO,
         DREAME_MOP_2_PRO_PLUS,
         DREAME_MOP_2_ULTRA,
     ):
